@@ -55,5 +55,49 @@ footer {
 
 
 @media screen and (min-width:890px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    h1 {
+        float: left;
+        margin-top: 10px;
+    }
+    .nav-links {
+        float: right;
+    }
+    li {
+        margin: 0;
+        padding: 20px;
+        background-color: transparent;
+        display: inline-block;
+    }
+    .header-img>img {
+        width: 890px;
+        height: 385px;
+    }
+    .main {
+        float: left;
+        width: 50%;
+        position: relative;
+    }
+    .sub-section {
+        float: right;
+        width: 35%;
+
+    }
+    .footer {
+        clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }
